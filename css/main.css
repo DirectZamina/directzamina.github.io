@@ -842,9 +842,16 @@ section,
 
 .hero .hero-image .image-wrapper {
   position: relative;
-  max-width: 450px;
+  max-width: 350px;
   margin: 0 auto;
 }
+
+@media (max-width: 992px) {
+  .hero .hero-image .image-wrapper {
+    max-width: 280px;
+  }
+}
+
 
 .hero .hero-image .image-wrapper img {
   border-radius: 20px;
